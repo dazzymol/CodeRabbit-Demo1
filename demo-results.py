@@ -15,7 +15,7 @@ def hash_password(password):
 def check_role(user_role):
     """Check if the user is an admin."""
     # Incorrect comparison (should use ==)
-    if user_role is "admin":
+    if user_role == "admin":
         print("Admin access granted")
     else:
         print("Standard user")
